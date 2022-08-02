@@ -9,32 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Manrope:wght@200;400;600&family=Sora:wght@300;400;600&display=swap" rel="stylesheet">
+    <!--Normalize-->
+    <link rel="stylesheet" href="./css/normalize.css">
     <!--Estilos-->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
     <header class="header">
-        <nav class="nav-bar">
-            <a href="#" class="nav-logo">orlando suárez</a>
-            <ul class="nav-menu">
-                <li class="nav-enlaces"></li>
-                <li class="nav-enlaces"></li>
-                <li class="nav-enlaces"></li>
-            </ul>
-            <a href="#" class="nav-enlaces">hola@osuarez.mx</a>
-        </nav>
+        <section class="hero">
+            <nav id="nav" class="nav__bar contenedor">
+                <a href="#" class="nav__logo">orlando suárez</a>
+                <ul class="nav__menu">
+                    <li class="menu__enlaces">
+                        <a href="#" class="enlace">inicio</a>
+                    </li>
+                    <li class="menu__enlaces">
+                        <a href="#" class="enlace">proyectos</a>
+                    </li>
+                    <li class="menu__enlaces">
+                        <a href="#" class="enlace">contacto</a>
+                    </li>
+                    <li class="menu__enlaces">
+                        <a href="#" class="enlace enlace--contacto">hola@osuarez.mx</a>
+                    </li>
+                </ul>
+                <a href="#nav" class="nav__hamburguer">
+                    <img src="./img/icono-menu.svg" class="nav__icon" alt="icono menu">
+                </a>
+                <a href="#" class="nav__close">
+                    <img src="./img/icono-cerrar.svg" class="nav__icon" alt="icono cerrar menu">
+                </a>
+            </nav>
+            <div class="contenedor">
+                <div class="hero-contenido">
+                    <h1 class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos!</h1>
+                    <h3 class="sub-heading texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, itaque deleniti hic sit iste iure enim quisquam, necessitatibus fuga laborum magnam commodi dolore eum alias!</h3>
+                </div>
+            </div>
+        </section>
         
         <main>
-            <section class="hero">
-                <div class="contenedor">
-                    <div class="hero-contenido">
-                        <h1 class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos!</h1>
-                        <h3 class="sub-heading texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, itaque deleniti hic sit iste iure enim quisquam, necessitatibus fuga laborum magnam commodi dolore eum alias!</h3>
-                    </div>
-                </div>
-            </section>
-
             <section class="proyectos">
                 <h2 class="proyectos-heading heading"></h2>
                 <div class="proyectos-grid">
