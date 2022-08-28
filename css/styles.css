@@ -57,6 +57,7 @@ img {
     font-weight: 400;
     line-height: 1.5;
     font-size: 3.2rem;
+    margin: 0;
 }
 @media (min-width: 900px) {
     .heading {
@@ -354,7 +355,7 @@ img {
 
 /* Seccion Servicios */
 .servicios {
-    padding: 40px 0 100px 0;
+    padding: 80px 0 100px 0;
 }
 .servicios-heading {
     color: var(--clrPrimary);
@@ -364,6 +365,7 @@ img {
     display: grid;
     grid-template-columns: 1;
     gap: 20px;
+    padding: 50px 0;
 }
 .servicio-contenido {
     background-color: var(--clrPrimary);
