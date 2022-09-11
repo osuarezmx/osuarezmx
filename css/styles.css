@@ -79,6 +79,12 @@ img {
     line-height: 1.6;
     font-weight: 300;
 }
+.texto--azul {
+    color: var(--clrPrimary);
+}
+.bg--azul {
+    color: var(--clrPrimary);
+}
 
 /**Menú**/
 .nav__bar {
@@ -91,12 +97,16 @@ img {
     justify-content: space-between;
     align-items: center;
     grid-template-columns: repeat(2, max-content);
+    background-color: var(--clrPrimary);
 }
 .nav__bar:target {
     --state-menu: translate(0);
     --state-close: scale(1);
     --state-hamburguer: scale(0);
 }
+.nav__bar.menu-sticky {
+    background-color: var(--clrPrimary);
+  }
 .nav__logo {
     font-size: 2rem;
     font-family: var(--fontLogo);
@@ -146,6 +156,9 @@ img {
     margin-left: 0;
     display: none;
 }
+.nav__bar.menu-sticky {
+    background-color: var(--clrPrimary);
+  }
 @media (min-width:900px) {
     .nav__bar {
         --state-hamburguer: scale(0);
